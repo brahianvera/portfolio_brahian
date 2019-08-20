@@ -47,35 +47,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <a href="#menu" class="menu-link">
                 <span>toggle menu</span>
             </a>
-            <nav id="menu" class="panel">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="skills.html">Skills</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html" class="active">Portofolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">contact</a>
-                    </li>
-                </ul>
-            </nav>
+            {% autoescape false %}
+                {% print(parts_temp["menu"]) %}
+            {% endautoescape %}
             <!-- //nav -->
             <!-- logo -->
-            <div class="logo_wthree">
-                <a href="index.html">
-                    <i class="fab fa-node-js"></i>
-                </a>
-            </div>
+           
             <!-- //logo -->
         </header>
         <!-- //header -->
