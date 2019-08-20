@@ -15,9 +15,9 @@ class parts_templates:
                         <li>
                             <a href="about.html" class="active">About</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="skills.html">Skills</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="services.html">Services</a>
                         </li>
