@@ -64,8 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="container">
                     <div class="banner_text_wthree">
                         <div class="d-flex">
-                            <h1>welcome to </h1>
-                            <h2>&nbsp;my site</h2>
+                            <h1>¡Bienvenido!</h1>
                         </div>
                         <div id="text" class="banner_text_w3ls my-md-5 my-3"></div>
                         <ul class="list-inline bnr_list_w3">
@@ -103,11 +102,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         document.addEventListener('DOMContentLoaded', function (event) {
 
             var dataText = [
-                "Hi there, Iam  James smith.",
-                "I'm  UI/UX designer.",
-                "I have strong knowledge in web development",
-                "As well as in photohsop, css3",
-                "Cross browser compiled layout"
+                "Hola, mi nombre es brahian vera.",
+                "Soy un desarrollador Full Stack.",
+                "Se de javascript, php, mysql y css.",
+                "Siempre estoy en constante aprendizaje.",
+                "¿Necesitas que te ayude con algo?"
             ];
 
             // type one text in the typwriter
@@ -133,7 +132,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             // start a typewriter animation for a text in the dataText array
             function StartTextAnimation(i) {
                 // check if dataText[i] exists
-                if (i < dataText[i].length) {
+                if (i < dataText.length) {
                     // text exists! start typewriter animation
                     typeWriter(dataText[i], 0, function () {
                         // after callback (and whole text has been animated), start next text
